@@ -36,17 +36,9 @@ export default function Faq() {
           >
             FAQ
           </h1>
-          <img
-            src="assets/images/line.svg"
-            className="mb-5 mt-2"
-            style={{ width: "300px" }}
-            alt=""
-          />
         </div>
       </div>
-      <div className="zangeer-2">
-        <img src="assets/images/zangeer-2.png" className="w-100 " alt="" />
-      </div>
+      <div className="zangeer-2"></div>
       <div className="row mx-0 justify-content-center ">
         <div className="col-lg-9 col-12">
           <Accordion>

@@ -27,6 +27,7 @@ export default function Team() {
             >
               SIM
             </span>
+            <h6 style={{ marginBottom: "30px" }}>Founder</h6>
 
             <div className="d-flex align-items-center pb-4">
               <a href="" className="mx-3">

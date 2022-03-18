@@ -9,8 +9,11 @@ export default function Projects() {
             <h1 className="heading text-primary">The</h1>
             <h1 className="heading">Project</h1>
             <img src="assets/images/line.svg" className="w-100 mb-5" alt="" />
-            <div className="project-wrapper w-100">
-              {/* <img src="assets/1.png" className="w-100" alt="" /> */}
+            <div
+              style={{ paddingTop: "-10px" }}
+              className="project-wrapper w-100"
+            >
+              <img src="assets/women.png" className="w-100" alt="" />
             </div>
           </div>
           <div className="col-lg-6 col-12 mt-lg-0 mt-4">

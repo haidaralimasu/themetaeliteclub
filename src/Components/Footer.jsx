@@ -34,7 +34,16 @@ export default function Footer() {
               </div>
             </div>
             <div className="d-flex flex-column align-items-center ps-lg-4">
-              <button className="btn-1 py-2">Read our whitepaper</button>
+              <button
+                style={{
+                  border: "2px solid white",
+                  background: "white",
+                  color: "black",
+                }}
+                className="btn-1 py-2"
+              >
+                Read our whitepaper
+              </button>
               <a href="" className="text-light fw-900  fs-8 mt-2">
                 Terms & Conditions
               </a>
