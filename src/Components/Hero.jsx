@@ -63,11 +63,11 @@ export default function Hero() {
   return (
     <>
       <div className="hero-bg d-lg-block d-none">
-        <img
+        {/* <img
           style={{ height: "700px", marginTop: 100 }}
           src="assets/logo.png"
           alt=""
-        />
+        /> */}
       </div>
       <div className=" hero">
         <div className="container">

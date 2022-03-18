@@ -10,6 +10,7 @@ import Benefits from "./Benefits";
 import Team from "./Team";
 import Faq from "./Faq";
 import Roadmap from "./Roadmap";
+import TopSection from "./TopSection";
 
 export default function Home() {
   document.onkeydown = function (e) {
@@ -22,6 +23,7 @@ export default function Home() {
   return (
     <>
       <Header style={{ marginBottom: "600px" }} />
+      <TopSection />
       <Hero />
       <Timer style={{ display: "none" }} />
       <Projects />
