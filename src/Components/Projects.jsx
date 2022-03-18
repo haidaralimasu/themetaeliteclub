@@ -49,7 +49,7 @@ export default function Projects() {
                   {/* <img src="assets/images/button-2.svg" alt="" /> */}
 
                   <button>
-                    <span
+                    {/* <span
                       style={{
                         borderRadius: "10px",
                         margin: "10",
@@ -58,7 +58,19 @@ export default function Projects() {
                       className="fs-5 "
                     >
                       Read Whitepaper
-                    </span>
+                    </span> */}
+                  </button>
+                  <button
+                    style={{
+                      position: "relative",
+                      top: "-10px",
+                      border: "2px solid white",
+                      background: "white",
+                      color: "black",
+                    }}
+                    className="btn-1 py-2"
+                  >
+                    Read our whitepaper
                   </button>
                 </div>
               </div>

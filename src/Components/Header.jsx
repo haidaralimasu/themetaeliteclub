@@ -3,6 +3,8 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 import { useHistory, Link } from "react-router-dom";
 import { MdClose } from "react-icons/md";
 import { AiOutlineMenu } from "react-icons/ai";
+import { FaInstagram, FaTwitter } from "react-icons/fa";
+import { BsDiscord } from "react-icons/bs";
 
 export default function Header() {
   const history = useHistory();
@@ -59,6 +61,29 @@ export default function Header() {
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
                   Faq
                 </Link>
+                <div style={{ display: "flex", marginLeft: "120px" }}>
+                  <Link
+                    style={{ cursor: "pointer" }}
+                    to=""
+                    className="nav-link"
+                  >
+                    <FaInstagram style={{ fontSize: 25 }} />
+                  </Link>
+                  <Link
+                    style={{ cursor: "pointer" }}
+                    to=""
+                    className="nav-link"
+                  >
+                    <FaTwitter style={{ fontSize: 25 }} />
+                  </Link>
+                  <Link
+                    style={{ cursor: "pointer" }}
+                    to=""
+                    className="nav-link"
+                  >
+                    <BsDiscord style={{ fontSize: 25 }} />
+                  </Link>
+                </div>
               </div>
             </Nav>
           </Navbar.Collapse>

@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <>
-      <Header />
+      <Header style={{ marginBottom: "600px" }} />
       <Hero />
       <Timer style={{ display: "none" }} />
       <Projects />
