@@ -138,10 +138,10 @@ export default function Hero() {
               )} */}
 
               <>
-                <div style={{ cursor: "pointer" }} className="button-lines">
+                {/* <div style={{ cursor: "pointer" }} className="button-lines">
                   <img src="assets/images/button.svg" alt="" />
                   <span>Minting To Be Announced</span>
-                </div>
+                </div> */}
               </>
             </div>
 

@@ -43,8 +43,20 @@ export default function Projects() {
 
               <div className="d-flex w-100 justify-content-center">
                 <div className="button-lines button-lines-2">
-                  <img src="assets/images/button-2.svg" alt="" />
-                  <span className="fs-5 ">Read our whitepaper</span>
+                  {/* <img src="assets/images/button-2.svg" alt="" /> */}
+
+                  <button>
+                    <span
+                      style={{
+                        borderRadius: "10px",
+                        margin: "10",
+                        borderColor: "white",
+                      }}
+                      className="fs-5 "
+                    >
+                      Read Whitepaper
+                    </span>
+                  </button>
                 </div>
               </div>
             </div>

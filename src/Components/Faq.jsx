@@ -30,8 +30,12 @@ export default function Faq() {
     <>
       <div className="container">
         <div className="d-flex flex-column align-items-center mt-5">
-          <h1 className="heading">What</h1>
-          <h1 className="heading text-primary">the FAQ</h1>
+          <h1
+            style={{ color: "white", marginBottom: "-150px" }}
+            className="heading "
+          >
+            FAQ
+          </h1>
           <img
             src="assets/images/line.svg"
             className="mb-5 mt-2"

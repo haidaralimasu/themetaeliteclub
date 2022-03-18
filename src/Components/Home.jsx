@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <Header />
       <Hero />
-      <Timer />
+      <Timer style={{ display: "none" }} />
       <Projects />
       <SecondSection />
       <CardSection />

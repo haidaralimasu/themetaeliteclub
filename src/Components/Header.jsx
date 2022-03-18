@@ -35,7 +35,7 @@ export default function Header() {
             className="d-lg-none d-flex menu-btn"
             onClick={toogle}
           >
-            menu
+            Menu
           </span>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="col d-flex justify-content-between align-items-lg-center ">
@@ -45,19 +45,19 @@ export default function Header() {
                   to=""
                   className="nav-link active "
                 >
-                  the projects
+                  The project
                 </Link>
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
-                  minting roadmap
+                  Roadmap
                 </Link>
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
-                  benefits
+                  Benefits
                 </Link>
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
-                  team
+                  Team
                 </Link>
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
-                  faq
+                  Faq
                 </Link>
               </div>
             </Nav>
@@ -73,24 +73,24 @@ export default function Header() {
           />
         </div>
         <Link to="" className="nav-link active  fs-5 pb-4">
-          the projects
+          Project
         </Link>
         <Link to="" className="nav-link fs-5 pb-4">
-          minting roadmap
+          Roadmap
         </Link>
         <Link to="" className="nav-link fs-5 pb-4">
-          benefits
+          Benefits
         </Link>
         <Link to="" className="nav-link fs-5 pb-4">
-          team
+          Team
         </Link>
         <Link to="" className="nav-link fs-5 pb-4">
-          faq
+          Faq
         </Link>
       </div>
-      <div className="round-toogler" onClick={toogle}>
+      {/* <div className="round-toogler" onClick={toogle}>
         <AiOutlineMenu style={{ cursor: "pointer", color: "#b29700" }} />
-      </div>
+      </div> */}
     </>
   );
 }

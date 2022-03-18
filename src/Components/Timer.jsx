@@ -48,20 +48,20 @@ export default function Timer() {
       <div className="container py-5 my-5 mb-0">
         <div className="d-flex justify-content-center align-items-center ">
           <div className="d-flex flex-column align-items-center border-end px-lg-4 px-2">
-            <span className="timer">{timeLeft.days}</span>
-            <span className="fs-8 pt-3">DAYS</span>
+            {/* <span className="timer">{timeLeft.days}</span> */}
+            {/* <span className="fs-8 pt-3">DAYS</span> */}
           </div>
           <div className="d-flex flex-column align-items-center border-end px-lg-4 px-2">
-            <span className="timer">{timeLeft.hours}</span>
-            <span className="fs-8 pt-3">HOURS</span>
+            {/* <span className="timer">{timeLeft.hours}</span> */}
+            {/* <span className="fs-8 pt-3">HOURS</span> */}
           </div>
           <div className="d-flex flex-column align-items-center border-end px-lg-4 px-2">
-            <span className="timer">{timeLeft.minutes}</span>
-            <span className="fs-8 pt-3">MINUTES</span>
+            {/* <span className="timer">{timeLeft.minutes}</span> */}
+            {/* <span className="fs-8 pt-3">MINUTES</span> */}
           </div>
           <div className="d-flex flex-column align-items-center  px-lg-4 px-2">
-            <span className="timer">{timeLeft.seconds}</span>
-            <span className="fs-8 pt-3">SECONDS</span>
+            {/* <span className="timer">{timeLeft.seconds}</span> */}
+            {/* <span className="fs-8 pt-3">SECONDS</span> */}
           </div>
         </div>
       </div>
