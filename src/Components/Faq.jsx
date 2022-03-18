@@ -31,7 +31,7 @@ export default function Faq() {
       <div className="container">
         <div className="d-flex flex-column align-items-center mt-5">
           <h1
-            style={{ color: "white", marginBottom: "-150px" }}
+            style={{ color: "white", marginBottom: "-100px" }}
             className="heading "
           >
             FAQ
