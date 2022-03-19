@@ -3,6 +3,7 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 import { useHistory, Link } from "react-router-dom";
 import { MdClose } from "react-icons/md";
 import { AiOutlineMenu } from "react-icons/ai";
+import opensea from "./opensea.png";
 import { FaInstagram, FaTwitter } from "react-icons/fa";
 import { BsDiscord } from "react-icons/bs";
 
@@ -37,51 +38,57 @@ export default function Header() {
             className="d-lg-none d-flex menu-btn"
             onClick={toogle}
           >
-            Menu
+            MENU
           </span>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="col d-flex justify-content-between align-items-lg-center ">
               <div className="d-flex col  flex-lg-row flex-column algn-items-lg-center align-items-start ">
                 <Link
                   style={{ cursor: "pointer" }}
-                  to=""
                   className="nav-link active "
                 >
-                  The project
+                  PROJECT
                 </Link>
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
-                  Roadmap
+                  ROADMAP
                 </Link>
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
-                  Benefits
+                  BENIFITS
                 </Link>
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
-                  Team
+                  TEAM
                 </Link>
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
-                  Faq
+                  FAQ
                 </Link>
-                <div style={{ display: "flex", marginLeft: "120px" }}>
+                <div style={{ display: "flex", marginLeft: "80px" }}>
                   <Link
                     style={{ cursor: "pointer" }}
                     to=""
                     className="nav-link"
                   >
-                    <FaInstagram style={{ fontSize: 25 }} />
+                    <FaInstagram style={{ fontSize: 30 }} />
                   </Link>
                   <Link
                     style={{ cursor: "pointer" }}
                     to=""
                     className="nav-link"
                   >
-                    <FaTwitter style={{ fontSize: 25 }} />
+                    <FaTwitter style={{ fontSize: 30 }} />
                   </Link>
                   <Link
                     style={{ cursor: "pointer" }}
                     to=""
                     className="nav-link"
                   >
-                    <BsDiscord style={{ fontSize: 25 }} />
+                    <BsDiscord style={{ fontSize: 30 }} />
+                  </Link>
+                  <Link
+                    style={{ cursor: "pointer" }}
+                    to=""
+                    className="nav-link"
+                  >
+                    <img style={{ height: "30px" }} src={opensea} />
                   </Link>
                 </div>
               </div>
@@ -98,19 +105,19 @@ export default function Header() {
           />
         </div>
         <Link to="" className="nav-link active  fs-5 pb-4">
-          Project
+          PROJECT
         </Link>
         <Link to="" className="nav-link fs-5 pb-4">
-          Roadmap
+          ROADMAP
         </Link>
         <Link to="" className="nav-link fs-5 pb-4">
-          Benefits
+          BENIFITS
         </Link>
         <Link to="" className="nav-link fs-5 pb-4">
-          Team
+          TEAM
         </Link>
         <Link to="" className="nav-link fs-5 pb-4">
-          Faq
+          FAQ
         </Link>
       </div>
       {/* <div className="round-toogler" onClick={toogle}>

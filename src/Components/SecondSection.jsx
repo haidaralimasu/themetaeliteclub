@@ -16,29 +16,32 @@ export default function SecondSection() {
             </div>
             <div className="col-lg-6 col-12">
               <div className="d-flex align-items-center">
-                <span className="they"></span>
-                <span className="fs-5 ps-2">
+                <span style={{ textAlign: "center" }} className="fs-5 ps-2">
                   Our goal is to build a strong and loyal community that’ll
                   bring together people who value our concept. We want to
                   represent a small community of Elites by committing to one of
                   the most unique NFT projects on the Blockchain
                 </span>
               </div>
-              <span className="they"></span>
+              <span style={{ textAlign: "center" }} className="they"></span>
               <p className="fs-5">
                 For the NFT lovers, we’ll be holding a Pre-Sale and Public Sale
                 for both Men and Women Meta Elites.
               </p>
-              <p className="fs-5">Release of Rich Baby NFT</p>
+              <p style={{ textAlign: "center" }} className="fs-5">
+                Release of Rich Baby NFT
+              </p>
 
-              <p className="fs-5">Exclusive Merchandise for our Holders</p>
+              <p style={{ textAlign: "center" }} className="fs-5">
+                Exclusive Merchandise for our Holders
+              </p>
 
-              <p className="fs-5">
+              <p style={{ textAlign: "center" }} className="fs-5">
                 Once the project is sold out we will start purchasing land in
                 the Metaverse.{" "}
               </p>
 
-              <p className="fs-5">
+              <p style={{ textAlign: "center" }} className="fs-5">
                 Charity will be carried out by the Founders and volunteers where
                 the community will decide on the type of charity that is carried
                 out.{" "}

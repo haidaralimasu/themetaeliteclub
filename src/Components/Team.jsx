@@ -5,13 +5,10 @@ export default function Team() {
     <>
       <div style={{ marginTop: "-300px" }} className="container team">
         <div className="d-flex  justify-content-center align-items-center rotation-wrapper">
-          <div className="inner">
-            {/* <img src="assets/images/rotation.svg" alt="" /> */}
-          </div>
-          {/* <img src="assets/images/bear-ai.webp" alt="" /> */}
+          <div className="inner"></div>
         </div>
         <div style={{ color: "white" }} className="text-center heading mb-5 ">
-          Team
+          TEAM
         </div>
         <div className="row justify-content-center mx-0 px-lg-5">
           <div className="col-lg-4 p-4 d-flex flex-column align-items-center  col-12">
@@ -32,14 +29,6 @@ export default function Team() {
             <div className="d-flex align-items-center pb-4">
               <a href="" className="mx-3">
                 <img src="assets/images/insta.webp" className="links" alt="" />
-              </a>
-
-              <a href="" className="mx-3">
-                <img
-                  src="assets/images/linkedin.webp"
-                  className="links"
-                  alt=""
-                />
               </a>
             </div>
             <div style={{ textAlign: "center" }}></div>

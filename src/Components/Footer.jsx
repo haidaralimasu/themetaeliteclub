@@ -13,7 +13,7 @@ export default function Footer() {
             TMEC
             <div className="d-flex col justify-content-center flex-lg-row flex-column">
               <span className="fw-900 fs-7 px-3 text-center col mt-lg-0 mt-3">
-                2022 The Meta Elite Club All rights Reserved.
+                THE META ELITE CLUB NFT PROPERTY
               </span>
               <div className="d-flex align-items-center justify-content-center my-lg-0 my-">
                 <a
@@ -33,21 +33,7 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-            <div className="d-flex flex-column align-items-center ps-lg-4">
-              <button
-                style={{
-                  border: "2px solid white",
-                  background: "white",
-                  color: "black",
-                }}
-                className="btn-1 py-2"
-              >
-                Read our whitepaper
-              </button>
-              <a href="" className="text-light fw-900  fs-8 mt-2">
-                Terms & Conditions
-              </a>
-            </div>
+            <div className="d-flex flex-column align-items-center ps-lg-4"></div>
           </div>
         </div>
       </div>

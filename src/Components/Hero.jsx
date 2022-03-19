@@ -62,95 +62,50 @@ export default function Hero() {
 
   return (
     <>
-      <div className="hero-bg d-lg-block d-none">
-        {/* <img
-          style={{ height: "700px", marginTop: 100 }}
-          src="assets/logo.png"
-          alt=""
-        /> */}
-      </div>
-      <div className=" hero">
-        <div className="container">
-          {/* <img src="assets/images/raper.webp" className="raper" alt="" /> */}
-          <div className="row mx-0">
-            <div className="col-lg-8 d-flex flex-column align-itmes-start col-12">
-              <h1 className="heading">The Meta</h1>
-              <h1 className="heading text-primary">Elite Club</h1>
-              {/* <h1 className="heading text-primary">
-                {totalSupply}/{maxSupply}
-              </h1> */}
-
-              <p className="col-lg-9 fs-6 fw-500 col-12 ps-0 py-2">
+      <div
+        className=" hero"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <div className=" ">
+          <div>
+            <div>
+              <h1 style={{ textAlign: "center" }} className="heading">
+                THE META
+              </h1>
+              <h1
+                style={{ textAlign: "center", marginBottom: "30px" }}
+                className="heading text-primary"
+              >
+                ELITE CLUB
+              </h1>
+              <h6
+                style={{ textAlign: "center", width: "60%", margin: "auto" }}
+                // className="col-lg-9 fs-6  col-12 ps-0 py-2"
+              >
                 From the deepest depths of the Metaverse, The Meta Elite Club is
                 a secret society that aims to become a home to high-status and
                 prestigious Elites of the World. The club is ready to rock the
                 world of NFTs unfolding a mass of opportunities for the next
                 generation of Entrepreneurs.
-              </p>
-
-              {/* {account ? (
-                <>
-                  <div
-                    onClick={() => decrease()}
-                    style={{ cursor: "pointer" }}
-                    className="button-lines"
-                  >
-                    <img src="assets/images/button.svg" alt="" />
-                    <span>
-                      <FaMinus />
-                    </span>
-                  </div>
-
-                  <div
-                    onClick={() => handleMint()}
-                    style={{ cursor: "pointer" }}
-                    className="button-lines"
-                  >
-                    <img src="assets/images/button.svg" alt="" />
-                    <span>
-                      {minting
-                        ? "Please Wait"
-                        : `Mint ${amount} AP for ${cost * amount}
-                      ${ethers.constants.EtherSymbol}`}
-                    </span>
-                  </div>
-
-                  <div
-                    onClick={() => increase()}
-                    style={{ cursor: "pointer" }}
-                    className="button-lines"
-                  >
-                    <img src="assets/images/button.svg" alt="" />
-                    <span>
-                      <FaPlus />
-                    </span>
-                  </div>
-                </>
-              ) : (
-                <div
-                  onClick={() => activateBrowserWallet(onError)}
-                  style={{ cursor: "pointer" }}
-                  className="button-lines"
-                >
-                  <img src="assets/images/button.svg" alt="" />
-                  <span>Connect Metamask</span>
-                </div>
-              )} */}
-
-              <>
-                {/* <div style={{ cursor: "pointer" }} className="button-lines">
-                  <img src="assets/images/button.svg" alt="" />
-                  <span>Minting To Be Announced</span>
-                </div> */}
-              </>
+              </h6>
             </div>
 
-            <div className="col-12 d-lg-none d-flex ">
-              <img src="assets/logo.png" className="w-100" alt="" />
-            </div>
+            {/* <p
+              style={{ textAlign: "center", width: "80%" }}
+              // className="col-lg-9 fs-6  col-12 ps-0 py-2"
+            >
+              From the deepest depths of the Metaverse, The Meta Elite Club is a
+              secret society that aims to become a home to high-status and
+              prestigious Elites of the World. The club is ready to rock the
+              world of NFTs unfolding a mass of opportunities for the next
+              generation of Entrepreneurs.
+            </p> */}
           </div>
         </div>
-        {/* <div className="collective">Collective</div> */}
       </div>
     </>
   );

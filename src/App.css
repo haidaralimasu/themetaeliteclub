@@ -73,9 +73,7 @@
 a {
   text-decoration: none;
 }
-#root {
-  cursor: url("../public/assets/images/cursor.png"), auto;
-}
+
 body {
   background-color: var(--bg-dark);
 }
@@ -288,7 +286,6 @@ body {
   font-weight: 900;
 }
 .second-section {
-  background-image: url(../public/assets/images/zangeer.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
