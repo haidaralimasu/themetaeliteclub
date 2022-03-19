@@ -2,6 +2,7 @@ import React from "react";
 import { BsTwitter } from "react-icons/bs";
 import { FaDiscord } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
+import opensea from "./opensea.png";
 
 export default function Footer() {
   return (
@@ -16,10 +17,7 @@ export default function Footer() {
                 THE META ELITE CLUB NFT PROPERTY
               </span>
               <div className="d-flex align-items-center justify-content-center my-lg-0 my-">
-                <a
-                  // href="https://www.twitter.com/1_awesomepossum"
-                  target="_blank"
-                >
+                <a target="_blank">
                   <BsTwitter className="fs-3 mx-2" />
                 </a>
                 <a href="">
@@ -30,6 +28,12 @@ export default function Footer() {
                   target="_blank"
                 >
                   <AiFillInstagram className="fs-3 mx-2" />
+                </a>
+                <a
+                  // href="https://www.instagram.com/awesomepossums_nft"
+                  target="_blank"
+                >
+                  <img height="25px" src={opensea} />
                 </a>
               </div>
             </div>

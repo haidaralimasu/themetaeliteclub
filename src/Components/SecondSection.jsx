@@ -7,12 +7,12 @@ export default function SecondSection() {
         <div className="container mt-5">
           <div className="row mx-0 align-items-center">
             <div className="col-lg-6 col-12">
-              {/* <img
+              <img
                 style={{ borderRadius: "20px" }}
-                src="assets/20.png"
+                src="assets/women.png"
                 className="w-100"
                 alt=""
-              /> */}
+              />
             </div>
             <div className="col-lg-6 col-12">
               <div className="d-flex align-items-center">
