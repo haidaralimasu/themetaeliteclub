@@ -53,7 +53,7 @@ export default function Header() {
                   ROADMAP
                 </Link>
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
-                  BENIFITS
+                  BENEFITS
                 </Link>
                 <Link style={{ cursor: "pointer" }} to="" className="nav-link">
                   TEAM
@@ -111,7 +111,7 @@ export default function Header() {
           ROADMAP
         </Link>
         <Link to="" className="nav-link fs-5 pb-4">
-          BENIFITS
+          BENEFITS
         </Link>
         <Link to="" className="nav-link fs-5 pb-4">
           TEAM
