@@ -65,23 +65,32 @@ export default function Projects() {
                       Read Whitepaper
                     </span> */}
                   </button>
-                  <button
-                    style={{
-                      position: "relative",
-                      top: "-10px",
-                      border: "2px solid white",
-                      background: "white",
-                      color: "black",
-                    }}
-                    className="btn-1 py-2"
-                  >
-                    Read our whitepaper
-                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <button
+          style={{
+            position: "relative",
+            top: "-10px",
+            border: "2px solid white",
+            borderRadius: "50px",
+            background: "white",
+            color: "black",
+          }}
+          className="btn-1 py-2"
+        >
+          Read our whitepaper
+        </button>
       </div>
     </>
   );
